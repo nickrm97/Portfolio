@@ -3,20 +3,39 @@ layout: project
 title: CoffeeCat
 tags: ['PYTHON']
 ---
+<h3>Description:</h3>
 <p>
 Every month at Everproof, two team members are assigned a coffee catchup.
-It was an informal meeting, where we'd head out of the office and spend some times chatting about the weekend, hobbies, etc.
-Nathan, the CEO, was in charge of assigning the matchups every month.
+Born out of our first hackathon, the tech team aimed to build a plugin for Twist (a messaging app) which could fully automate these catchups.
+My task was to build an algorithm which best determined matchups, and integrate this with Twist's API.
+</p>
+
+<h3>Technologies used:</h3>
+<ul>
+  <li><a target="_blank" href="https://www.python.org/">Python</a></li>
+  <li><a target="_blank" href="https://twistapp.com/?lang=en">Twist</a> (messaging app)</li>
+  <li><a target="_blank" href="https://www.getpostman.com/">Postman</a> (API Development tool)</li>
+</ul>
+
+<h3>Algorithm design:</h3>
+<p>
+I designed the algorithm in Python. The algorithm would determine the best matchups by scoring all potential matchups,
+ (based on a variety of factors), and selecting the most favourable coffee catchups.
 </p>
 <p>
-Born out of our first hackathon, the tech team aimed to build a plugin for Twist (a messaging app, very similar to Slack) which could fully automate coffee catchups.
+These factors included:
+  <ul>
+    <li> The time since their last catchup together</li>
+    <li> If they were from the same department (eg. Sales, Support, Engineering)</li>
+    <li> The times they had caught up with other members</li>
+  </ul>
 </p>
 <p>
-We split the project up, and my role was to build the algorithm which calculated the best matchups.
-I used python, and created functions to account for a variety of factors, including previous matchups, and what departments members worked in.
-</p>
+  I took great pride in clear and consise code, so that my team members could understand the algorithm in a quick time period.
+<h3>Intergration with TwistAPI:</h3>
 <p>
-I finished the algorithm early, so went on to hook the algorithm directly into Twist through the API. Every month, a trigger within AWS would set the algoritm to work.
+As I finished my algorithm earlier than expected, I began intergrating with TwistAPI.
+I used Postman to test posting to the API.
 </p>
 <p>
   <a target="_blank" href="https://github.com/nickrm97/Coffeecat-Algorithm" class="btn btn-secondary">View on Github</a>
