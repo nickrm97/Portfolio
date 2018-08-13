@@ -15,17 +15,21 @@ body{
   background: #252B33;
   color: white;
   font-size: 18px;
+  width: 100%;
+  :hover{
+    background: #000000;
+    cursor: pointer;
+  }
+
 }
-.card:hover{
-  background: #000000;
-  cursor: pointer;
-}
+
 
 .card-title{
   margin-bottom: 0;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
+
 section{
   margin: 2em 0 2em 0;
   background: white;
@@ -44,10 +48,6 @@ section h1{
   margin: 2em 2em 2em 2em;
 }
 
-#profileimg{
-  margin: 2em 0 2em 0;
-}
-
 .img-circle{
   border-radius: 50%;
   border-radius: 200px;
@@ -55,11 +55,12 @@ section h1{
   border: 5px solid white;
   height: 200px;
   width: 200px;
-  background: url("https://i.imgur.com/ZtQOwly.jpg");
+  background: url(../nick.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
-  min-height: 1px; 
+  min-height: 1px;
+  margin: 0 auto;
 }
 
 @-webkit-keyframes Gradient {
