@@ -1,0 +1,37 @@
+---
+---
+header{
+	width: 100vw;
+	height: 15em;
+	color: #fff;
+  text-align: center;
+	background: linear-gradient(-45deg, #e5c100, #FF5700, #ffe34c, #FF0029);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 30s ease infinite;
+	-moz-animation: Gradient 30s ease infinite;
+	animation: Gradient 30s ease infinite;
+
+	h1{
+  font-size: 50px;
+	}
+}
+
+#nav{
+  padding-top: 20px;
+	a{
+	  letter-spacing: 0.05em;
+		color: #fff;
+	}
+}
+
+#head{
+  padding-top: 3.5em;
+}
+
+img{
+	padding-bottom: 40px;
+}
+
+.col-sm-10{
+	margin-top: 1em;
+}
