@@ -1,0 +1,2 @@
+title: Nick's portfolio
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
